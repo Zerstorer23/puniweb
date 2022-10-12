@@ -1,22 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+const  redirectURL = "https://www.google.com";
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img alt={"Alt"}
+             src={`/images/godsong.gif`}
+        />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          yahoo!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href={redirectURL}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Go
         </a>
       </header>
     </div>
