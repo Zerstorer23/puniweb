@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-const  redirectURL = "https://www.google.com";
+const  redirectURL = "https://play.google.com/store/apps/details?id=com.Production991.DodgeTiming&hl=en";
 function App() {
 
 
